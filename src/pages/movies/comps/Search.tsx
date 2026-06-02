@@ -12,8 +12,12 @@ export const Search = ({ onSearch }: SearchProps) => {
   return (
     <div>
       <form action={handleSearch}>
-        <input type="text" name="query" placeholder="Search movies..." />
-        <button type="submit">Search</button>
+        <input
+          className="w-full border-solid"
+          type="text"
+          name="query"
+          placeholder="Search movies..."
+        />
       </form>
     </div>
   );
